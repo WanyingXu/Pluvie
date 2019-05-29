@@ -1,4 +1,3 @@
-# Pluvie
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Pluvie</title>
@@ -48,27 +47,66 @@ body > * { padding-left: 20px; }
 body { font-family: Roboto, sans-serif; }
 h2 span { font-family: "Roboto Mono"; }
 
-label { display: inline-block; width: 4em; margin-bottom: 0.33em}
+label { display: inline; width: 4em; margin-bottom: 0.33em}
 input { width: 14em; }
+
 </style>
+
 <h2>Pluvie</h2>
 <div class="contenu">
-	<form method="get">
+	<form method ="get">
 		<div>
 			<label for="Date">Date : </label>
 			<input type="date" id="txtDate" />
 		</div>
+	<nobr>
 		<div>
-			<nobr>
-				<label for="Horaire au début">Horaire au début:</label>
-			</nobr>
-
-			<select name="Horaire au début" id="Horaire au début"> 
-				<option value="0">0</option> 
-				<option value="1">1</option> 
-			</select> 
-			<label for="H">H</label>  
+			<label for="Horaire au début">Horaire au début:</label>
+			<select name="Horaire au début" id="Horaire au début">
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+		    </select>
+		<label for="H">H</label> 
+		
+		    <select>
+				<option value="0">0</option>
+				<option value="6">6</option>
+				<option value="12">12</option>
+				<option value="18">18</option>
+				<option value="24">24</option>
+				<option value="30">30</option>
+				<option value="36">36</option>
+				<option value="42">42</option>
+				<option value="48">48</option>
+				<option value="54">54</option>
+				<option value="60">60</option>
+		   </select>
+			<label for="Min">Min</label>
 		</div>
+	</nobr>
 		<div>
 			<input type="button" id="button" value="Envoyer">
 		</div>
